@@ -23,7 +23,7 @@ An automated ML pipeline for customer churn prediction using the Telco dataset.
 
 ---
 
-## ⚙**Pipeline Steps**
+## **Pipeline Steps**
 1. **Data Ingestion**
    - Loads raw Excel/CSV data
    - Validates schema
