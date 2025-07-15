@@ -44,3 +44,26 @@ An automated ML pipeline for customer churn prediction using the Telco dataset.
    - Saves trained model to `models/`
 
 ---
+## Results
+
+The RandomForest model was trained with `class_weight='balanced'` to address class imbalance.
+
+**Test set metrics:**
+
+| Class        | Precision | Recall | F1-score | Support |
+|--------------|-----------|--------|----------|---------|
+| No Churn (0) | 0.82      | 0.89   | 0.86     | 1033    |
+| Churn (1)    | 0.62      | 0.48   | 0.54     | 374     |
+
+**Overall Accuracy:** 78.2%
+
+**Macro Average:**
+- Precision: 0.72
+- Recall: 0.68
+- F1-score: 0.70
+
+**Weighted Average:**
+- Precision: 0.77
+- Recall: 0.78
+- F1-score: 0.77
+
