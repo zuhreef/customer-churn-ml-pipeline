@@ -66,4 +66,6 @@ The RandomForest model was trained with `class_weight='balanced'` to address cla
 - Precision: 0.77
 - Recall: 0.78
 - F1-score: 0.77
-
+---
+## 📊 Confusion Matrix
+![Confusion Matrix](results/confusion_matrix.png)
